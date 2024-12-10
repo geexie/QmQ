@@ -15,11 +15,11 @@ source pyaedt/bin/activate
 Simulation:
 
 
-Some other usefull commands
+Some other useful commands
 
 ```
 python3 -m venv pyaedt
 ps -aux | grep ansysedt
 ```
 
-## Estimating capasitance
+## Estimating capacitance
