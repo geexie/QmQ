@@ -4,7 +4,7 @@
 
 ## Running simulation
 
-Environment setup:
+### Environment
 
 ```
 export ANSYSEM_ROOT241=/opt/AnsysEM/v241/Linux64/
@@ -12,10 +12,14 @@ export LD_LIBRARY_PATH=$ANSYSEM_ROOT241/common/mono/Linux64/lib64:$ANSYSEM_ROOT2
 source pyaedt/bin/activate
 ```
 
-Simulation:
+### Running
+
+```
+python3 m3d.py
+```
 
 
-Some other useful commands
+### Other useful commands
 
 ```
 python3 -m venv pyaedt
@@ -23,3 +27,7 @@ ps -aux | grep ansysedt
 ```
 
 ## Estimating capacitance
+
+```
+python3 capacitance.py
+```
